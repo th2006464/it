@@ -90,9 +90,7 @@
                             </h3>
                         </div>
                         <div class="panel-body">
-                          <div>
-                            <a href="https://sunlogin.oray.com/download" class="btn btn-info btn-sm btn-block">远程协助软件下载[向日葵]</a></div>
-                          <p>
+                          
                             <div>
                               <a href="https://anydesk.com/zhs/downloads/windows" class="btn btn-info btn-sm btn-block">远程协助软件下载[Anydesk]</a></div>
                             <p>
@@ -105,6 +103,7 @@
                                   <div>
                                     <a href="https://wwzx.lanzn.com/inrAp2osyz1a" class="btn btn-info btn-sm btn-block">PuTTY客户端</a></div>
                                   <p>
+								  <div><a href="https://wwzx.lanzn.com/ibcD22rnagfe" class="btn btn-warning btn-sm btn-block">SentinelCleaner</a></div><p>
                                     <div>
                                       <a href="https://wwzx.lanzn.com/iid982ovbkuj" class="btn btn-info btn-sm btn-block">WinSCP</a></div>
                         </div>
@@ -118,7 +117,7 @@
                     <div class="col-md-6 column">
                       <div class="panel panel-info">
                         <div class="panel-heading">
-                          <h3 class="panel-title"><span style="color:red;font-weight:bold;">[C]</span>进阶软件
+                          <h3 class="panel-title"><span style="color:red;font-weight:bold;">[C]</span>魔法软件
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -126,13 +125,13 @@
                             <a href="https://wwzx.lanzn.com/iZVj32oszgub" class="btn btn-info btn-sm btn-block">AACT[已安装SEP使用]</a></div>
                           <p>
                             <div>
-                              <a href="https://www.garchina.com/mas.html" class="btn btn-info btn-sm btn-block">MAS[推荐]</a></div>
+                              <a href="https://aichunjing.lanzoui.com/b710887" class="btn btn-info btn-sm btn-block">HEU[测试]</a></div>
                             <p>
                               <div>
-                                <a href="https://aichunjing.lanzoui.com/b710887" class="btn btn-info btn-sm btn-block">HEU[测试]</a></div>
+                                <a href="https://www.garchina.com/mas.html" class="btn btn-info btn-sm btn-block">MAS[推荐]</a></div>
                               <p>
                                 <div>
-                                  <a href="https://www.garchina.com/kms.html" class="btn btn-info btn-sm btn-block">KMS[搭配Office部署使用]</a></div>
+                                  <a href="https://github.com/clash-verge-rev/clash-verge-rev/releases" class="btn btn-info btn-sm btn-block">Clash Verge</a></div>
                                 <p>
                                   <div>
                                     <a href="https://github.com/huiyadanli/RevokeMsgPatcher" class="btn btn-info btn-sm btn-block">WX多开防撤回</a></div>
@@ -146,7 +145,7 @@
                     <div class="col-md-6 column">
                       <div class="panel panel-info">
                         <div class="panel-heading">
-                          <h3 class="panel-title"><span style="color:red;font-weight:bold;">[D]</span>装机软件
+                          <h3 class="panel-title"><span style="color:red;font-weight:bold;">[D]</span>装机维护
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -156,7 +155,7 @@
                           <p>
                             <a href="https://wwm.lanzn.com/iu4cE24hl41a" class="btn btn-info btn-sm btn-block">SAP本地打印支持</a>
                             <p>
-                              <a href="\\10.95.0.88\Public\Software\杀毒软件" class="btn btn-info btn-sm btn-block">SEP安装</a></p>
+                              <a href="https://www.lanzouo.com/iLCvb2o882bg" class="btn btn-info btn-sm btn-block">WinRAR</a></p>
                             <p>
                               <a href="https://otp.landian.vip/zh-cn/download.html" class="btn btn-info btn-sm  btn-block">Office Tool Plus</a></p>
                             <a href="https://cowtransfer.com/" class="btn btn-info btn-sm  btn-block">奶牛快传</a></div>
@@ -178,11 +177,18 @@
         </div>
       </div>
     </div>
-    <script>function verifyAccess() {
+    <script>
+	document.getElementById('passwordInput').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter' || e.keyCode === 13) { // 检测回车键
+        verifyAccess(); // 调用验证函数
+    }
+});
+
+	function verifyAccess() {
         const password = document.getElementById('passwordInput').value;
         const errorMessage = document.getElementById('errorMessage');
 
-        if (password === '0000') {
+        if (password === '112233') {
           document.getElementById('blurOverlay').style.display = 'none';
           document.getElementById('content').style.display = 'block';
         } else {
